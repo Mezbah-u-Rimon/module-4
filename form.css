@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+
+}
+
+form {
+    width: 300px;
+    height: auto;
+    background-color: rgba(240, 255, 255, 0.781);
+    box-shadow: 5px 5px 15px gray;
+    padding: 20px;
+    float: center;
+    /* display: grid; */
+    margin: auto;
+    /* align-items: center; */
+    /* margin-left: 35%; */
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    margin: 20px;
+}
+
+form label input {
+    margin: 10px;
+}
+
+div {
+    padding: 20px;
+    background-image: url(media/tiger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+div>form {
+    background-color: rgba(36, 35, 35, 0.741);
+}
